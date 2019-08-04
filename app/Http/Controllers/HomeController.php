@@ -28,12 +28,17 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function profile()
+    public function about()
     {
 
         $users = User::all();
 
         dd($users->count());
         return view('profile', ['users' => '$users']);
+    }
+
+    public function contact()
+    {
+        return view('home');
     }
 }

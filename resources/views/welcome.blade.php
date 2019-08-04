@@ -92,6 +92,9 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="/about">About</a>
+                    <a href="/contact">Contact</a>
+                    <a href="https://github.com/ss3473/IS601-MP2">GitHub</a>
                 </div>
             </div>
         </div>
