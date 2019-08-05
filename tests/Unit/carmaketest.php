@@ -5,9 +5,9 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use App\Car;
+use App\car;
 
-class integercartest extends TestCase
+class carmaketest extends TestCase
 {
     /**
      * A basic unit test example.
@@ -17,7 +17,6 @@ class integercartest extends TestCase
     public function testExample()
     {
         $car = Car::inRandomOrder()->first();
-        $this->assertInternalType('int', $car->Year);
+        $this->assertContains($car->Make, ["Honda", "Ford", "Toyota"]);
     }
-
 }
